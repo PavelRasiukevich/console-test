@@ -1,0 +1,7 @@
+D:\vs projects\ResearchEducationPrjkt\Initial\bin\Debug\Initial.exe.config
+D:\vs projects\ResearchEducationPrjkt\Initial\bin\Debug\Initial.exe
+D:\vs projects\ResearchEducationPrjkt\Initial\bin\Debug\Initial.pdb
+D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.csprojAssemblyReference.cache
+D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.csproj.CoreCompileInputs.cache
+D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.exe
+D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.pdb
