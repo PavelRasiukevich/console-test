@@ -100,7 +100,7 @@ namespace Initial
 
             if (_xPointToCheck >= 0 && _xPointToCheck < BattleField.Field[point.Y].Length
                 && _yPointToCheck >= 0 && _yPointToCheck < BattleField.Field.Length)
-                if (BattleField.Field[_yPointToCheck][_xPointToCheck].Contains("+"))
+                if (BattleField.Field[_yPointToCheck][_xPointToCheck].Contains("0"))
                 {
                     point.PointToMove[0] = _yPointToCheck;
                     point.PointToMove[1] = _xPointToCheck;
@@ -119,16 +119,16 @@ namespace Initial
         {
             for (int i = 1; i <= (int)_unit.TravelDistance; i++)
             {
-                var _East = point.X + i;
+                /*var _East = point.X + i;
                 var _West = point.X - i;
                 var _North = point.Y - i;
                 var _South = point.Y + i;
 
                 var _tempE = point.X + i;
-                var _SE = _tempE;
+                var _SE = _tempE;*/
 
 
-                if (_East >= 0 && _East < BattleField.Field[Point.Y].Length)
+              /*  if (_East >= 0 && _East < BattleField.Field[Point.Y].Length)
                     if (_East - point.X < _unit.TravelDistance)
                         if (BattleField.Field[point.Y][_East].Contains("0"))
                             BattleField.Field[point.Y][_East] = "+";
@@ -152,7 +152,7 @@ namespace Initial
                 if (_SE >= 0 && _SE < BattleField.Field.Length &&
                     _SE >= 0 && _SE < BattleField.Field[point.Y].Length)
                         if (BattleField.Field[_SE][_tempE].Contains("0"))
-                        BattleField.Field[_SE][_tempE] = "+";
+                        BattleField.Field[_SE][_tempE] = "+";*/
 
 
             }

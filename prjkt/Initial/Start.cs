@@ -17,8 +17,10 @@ namespace Initial
 
             master.SetPlayerToTheBattleField(unit);
             master.DefineUnitPosition(unit);
+            Console.WriteLine($"X:{master.Point.X} Y:{master.Point.Y}");
             master.DefinePossibleMoveArea(unit);
             master.BattleField.DisplayBattleField();
+
 
             while (true)
             {
@@ -42,7 +44,6 @@ namespace Initial
                     }
 
                     master.BattleField.DisplayBattleField();
-                    master.DefinePossibleMoveArea(unit);
                     Input.ResetInput();
                 }
 
@@ -123,9 +124,6 @@ namespace Initial
                 #endregion
 
             }
-
-            Console.WriteLine("Application Stopped");
-            Console.ReadKey();
         }
     }
 }
