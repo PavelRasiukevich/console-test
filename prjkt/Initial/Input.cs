@@ -4,26 +4,33 @@ namespace Initial
 {
     class Input
     {
-        public static int Horizontal
+        public static int _h;
+        public static int _v;
+
+        public static int InputValue
         {
             get
             {
-                int _axesValue = Console.KeyAvailable && Console.ReadKey(true).Key.Equals(ConsoleKey.RightArrow) ? 1 :
-                   Console.KeyAvailable && Console.ReadKey(true).Key.Equals(ConsoleKey.LeftArrow) ? -1 : 0;
+                var _key = Console.ReadKey(true).Key;
+
+                int _axesValue = _key.Equals(ConsoleKey.RightArrow) || _key.Equals(ConsoleKey.UpArrow) ? 1 :
+                 _key.Equals(ConsoleKey.LeftArrow) || _key.Equals(ConsoleKey.DownArrow) ? -1 : 0;
+
+                if (_key.Equals(ConsoleKey.RightArrow) || _key.Equals(ConsoleKey.LeftArrow))
+                    _h = _axesValue;
+
+                if (_key.Equals(ConsoleKey.UpArrow) || _key.Equals(ConsoleKey.DownArrow))
+                    _v = _axesValue;
 
                 return _axesValue;
+
             }
         }
 
-        public static int Vertical
+        public static void ResetInput()
         {
-            get
-            {
-                int _axesValue = Console.KeyAvailable && Console.ReadKey(true).Key.Equals(ConsoleKey.UpArrow) ? 1 :
-                   Console.KeyAvailable && Console.ReadKey(true).Key.Equals(ConsoleKey.DownArrow) ? -1 : 0;
-
-                return _axesValue;
-            }
+            _h = 0;
+            _v = 0;
         }
     }
 }

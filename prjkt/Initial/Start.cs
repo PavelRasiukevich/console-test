@@ -22,16 +22,16 @@ namespace Initial
 
             while (true)
             {
-                var _hor = Input.Horizontal;
-                var _vert = Input.Vertical;
+                var _value = Input.InputValue;
 
-                if (_hor != 0 || _vert != 0)
+                if (_value != 0)
                 {
+
                     master.DefineUnitPosition(unit);
 
                     Console.Clear();
 
-                    if (master.CheckStep(_vert, _hor))
+                    if (master.CheckStep(Input._v, Input._h))
                     {
 
                         master.ResetPreviouseUnitPosition();
@@ -43,7 +43,9 @@ namespace Initial
 
                     master.BattleField.DisplayBattleField();
                     master.DefinePossibleMoveArea(unit);
+                    Input.ResetInput();
                 }
+
                 #region Comments
                 /*if (Input.Horizontal > 0)
                 {
