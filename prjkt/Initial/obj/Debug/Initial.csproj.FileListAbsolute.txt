@@ -5,6 +5,7 @@ D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.csprojAssemblyRe
 D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.csproj.CoreCompileInputs.cache
 D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.exe
 D:\vs projects\ResearchEducationPrjkt\Initial\obj\Debug\Initial.pdb
+<<<<<<< Updated upstream
 D:\vs repos\console-field\console-test\prjkt\Initial\obj\Debug\Initial.exe
 D:\vs repos\console-field\console-test\prjkt\Initial\obj\Debug\Initial.pdb
 D:\vs repos\console-field\console-test\prjkt\Initial\bin\Debug\Initial.exe.config
@@ -12,3 +13,12 @@ D:\vs repos\console-field\console-test\prjkt\Initial\bin\Debug\Initial.exe
 D:\vs repos\console-field\console-test\prjkt\Initial\bin\Debug\Initial.pdb
 D:\vs repos\console-field\console-test\prjkt\Initial\obj\Debug\Initial.csproj.AssemblyReference.cache
 D:\vs repos\console-field\console-test\prjkt\Initial\obj\Debug\Initial.csproj.CoreCompileInputs.cache
+=======
+D:\vs projects\ResearchEducationPrjkt\console-test\prjkt\Initial\bin\Debug\Initial.exe.config
+D:\vs projects\ResearchEducationPrjkt\console-test\prjkt\Initial\bin\Debug\Initial.exe
+D:\vs projects\ResearchEducationPrjkt\console-test\prjkt\Initial\bin\Debug\Initial.pdb
+D:\vs projects\ResearchEducationPrjkt\console-test\prjkt\Initial\obj\Debug\Initial.csprojAssemblyReference.cache
+D:\vs projects\ResearchEducationPrjkt\console-test\prjkt\Initial\obj\Debug\Initial.csproj.CoreCompileInputs.cache
+D:\vs projects\ResearchEducationPrjkt\console-test\prjkt\Initial\obj\Debug\Initial.exe
+D:\vs projects\ResearchEducationPrjkt\console-test\prjkt\Initial\obj\Debug\Initial.pdb
+>>>>>>> Stashed changes
